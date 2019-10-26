@@ -1,28 +1,37 @@
 body {
-  color: white;
-
   font-family: 'Exo';
   font-size: 22px;
 }
 
 .wrapper-img {
-  padding: 30px;
+  padding: 30px 90px;
 }
 h1 {
   text-transform: uppercase;
 }
 .title {
-  margin-top: 0;
+  margin: 0;
+  font-weight: 900;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
 }
 .description {
-  width: 40%;
+  font-weight: 400;
+  width: 80%;
+  margin: 2rem 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 .description span {
   text-decoration: line-through;
 }
 
 .box-container {
-  height: 100vh;
+  color: white;
+  height: 80vh;
   background-image: url('/public/Hero_image.png');
   background-repeat: no-repeat, repeat;
   background-position: center;
@@ -31,8 +40,8 @@ h1 {
 }
 
 .wrap-text {
-  width: 50%;
-  padding: 90px 30px;
+  width: 54%;
+  padding: 90px 30px 30px 90px;
 }
 
 .section-2,
@@ -43,6 +52,14 @@ h1 {
   justify-content: space-evenly;
 }
 
+.wrapper-review {
+  width: 30%;
+  text-align: center;
+}
+
+.name-review {
+  margin: 0;
+}
 /* .cta { */
 /* body {
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
@@ -60,8 +77,9 @@ h1 {
   align-items: center;
   width: 200px;
   height: 50px;
-  background: #fff;
+  background: #ffc300;
   border-radius: 999px;
+  margin-top: 5rem;
 }
 
 .cta:hover {
@@ -74,7 +92,7 @@ h1 {
   left: 40px;
   width: 100px;
   height: 40px;
-  background: #ffe66e;
+  background: #ffc300;
   border-radius: 100%;
   animation: flare 1000ms ease-out forwards;
 }
@@ -85,7 +103,7 @@ h1 {
   right: 40px;
   width: 100px;
   height: 40px;
-  background: #ffe66e;
+  background: #ffc300;
   border-radius: 100%;
   animation: flare 1000ms ease-out forwards;
 }
@@ -101,13 +119,13 @@ h1 {
 @keyframes burn {
   0% {
     color: #ff826e;
-    background: #ffe66e;
+    background: #ffc300;
     box-shadow: 0 0 5px 0 #c8000a, 0 0 5px 0 rgba(230, 30, 10, 0.8),
       0 0 5px 0 rgba(230, 230, 10, 0.6);
   }
   100% {
     color: black;
-    background: white;
+    background: #ffc300;
     box-shadow: 0 -35px 40px 30px rgba(255, 130, 10, 0),
       0 -30px 30px 10px rgba(230, 30, 10, 0),
       0 -20px 10px 0 rgba(255, 255, 10, 0);
