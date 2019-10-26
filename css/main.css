@@ -6,6 +6,9 @@ body {
 .wrapper-img {
   padding: 30px 90px;
 }
+.wrapper-img img {
+  width: 12rem;
+}
 h1 {
   text-transform: uppercase;
 }
